@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding:0;
+}
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:70%;
+}
+#bios {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    width: 30%;
+    overflow: scroll;
+    margin: 0px;
+    padding: 0px;
+    background: #ddd;
+    border-left: 1px solid #aaa;
+}
+#bios ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#bios ul li {
+    margin-top: -5px;
+}
+#bios ul li img {
+    border: 1px #ccc solid;
+    width: 100%;
+}
+.about {
+  text-align: left;
+  padding: 5px;
+}
+.in-space {
+  background: #232323;
+  padding: 2px;
+  margin-bottom: 5px;
+  color: #efefef;
+}
+h2 {
+  margin: 10px;
+}
